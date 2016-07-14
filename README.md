@@ -8,3 +8,5 @@ Clara
 Caleb
 Margo
 Nimish
+
+Yo we're obviously the coolest group here!
