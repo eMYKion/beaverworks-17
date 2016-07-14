@@ -41,7 +41,7 @@ class wallF:
             else: # if too far left
                 steer_angle = self.steer_angle * -1 
                 drive_msg.drive.steering_angle = steer_angle # turn right
-            self.drive.publish(drive_msg)
+            self.drive.pub(drive_msg)
             rate.sleep()
         self.drive.pub(AckermannDriveStamped())
     def callback(self,msg):
